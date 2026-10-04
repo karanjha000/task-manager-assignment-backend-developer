@@ -37,7 +37,7 @@ const taskSchema = new mongoose.Schema(
   }
 );
 
-// Add text index for searching title & description
+// Text index for search functionality
 taskSchema.index({ title: 'text', description: 'text' });
 
 module.exports = mongoose.model('Task', taskSchema);
