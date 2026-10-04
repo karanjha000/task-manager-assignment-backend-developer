@@ -2,6 +2,9 @@
 
 A Task Management REST API backend service built with Node.js, Express, MongoDB, and JWT Authentication for technical assignment submission.
 
+> **Note**: This repository contains the backend REST API implementation as required by the technical assignment specification. Therefore, no frontend UI is included in this repository. However, if a full-stack frontend interface is required or helpful for demonstration, I can readily build and integrate one upon request.
+
+
 ## Tech Stack
 - **Backend Framework**: Node.js & Express.js
 - **Database**: MongoDB (via Mongoose ODM)
